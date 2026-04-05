@@ -1,0 +1,28 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/opt/openclaw/mvp-projects/rental-tax-prep/dist"
+publishOrigin = "config"
+commandOrigin = "config"
+base = "/opt/openclaw/mvp-projects/rental-tax-prep"
+command = "echo 'static build'"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
